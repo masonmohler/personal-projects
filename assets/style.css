@@ -15,7 +15,6 @@ Fonts:
 
 */
 
-
 /* General Styles */
 
 :root {
@@ -175,6 +174,17 @@ nav a {
 #projects a {
     display: block;
     color: #fff;
+    transition: .3s ease-in-out;
+}
+
+#projects a:hover {
+    color: var(--color-5);
+    padding: 20px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 10px 5px var(--color-1);
+    box-shadow: 20px 10px var(--color-1), -20px -10px var(--color-3);
 }
   
 #projects h3 {

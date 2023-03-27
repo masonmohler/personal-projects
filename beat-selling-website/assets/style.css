@@ -1,0 +1,113 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #bbb;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.shopping-carousel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.carousel-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.carousel-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.carousel-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.carousel-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.carousel-item a:hover {
+    background-color: #bbb;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+li:before {
+    content: "•";
+    margin-right: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
