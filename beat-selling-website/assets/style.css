@@ -27,10 +27,10 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-right: 40px;
 }
 
 nav li {
-    padding: 20px;
     background-color: #57BCFF;
 }
 
@@ -59,6 +59,7 @@ h2 {
 
 #beats h2 {
     text-align: center;
+    font-size: 60px;
 }
 
 .shopping-carousel {
@@ -73,15 +74,10 @@ h2 {
     margin-bottom: 30px;
     background-color: #57BCFF;
     border: 5px solid #fff;
-    border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in-out;
     text-align: center;
-}
-
-.carousel-item:hover {
-    box-shadow: 10px 10px 5px #000;;
 }
 
 .carousel-item img {
@@ -101,19 +97,46 @@ h2 {
 
 .carousel-item a {
     display: inline-block;
+    border-radius: 20px;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #054F80;
     color: #fff;
     text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .carousel-item a:hover {
-    background-color: #bbb;
+    background-color: #fff;
+    color: #054F80;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services li {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#about p {
+    text-align: center;
+    font-size: 30px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #57BCFF;
     color: #fff;
     padding: 20px;
     text-align: center;
