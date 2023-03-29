@@ -125,6 +125,58 @@ h2 {
     margin-right: 40px;
 }
 
+#contact {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 200px;
+}
+
+#contact button[type="submit"] {
+    background-color: #054F80;
+    box-shadow: inset 0 0 0 0 #57BCFF;
+    color: #fff;
+    padding: 5px 40px;
+    border: 5px solid #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#contact button[type="submit"]:hover {
+    box-shadow: inset 300px 0 0 0 #57BCFF;
+    font-size: 40px;
+}
 #about h2 {
     text-align: center;
     font-size: 60px;
