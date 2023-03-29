@@ -177,15 +177,6 @@ h2 {
     box-shadow: inset 300px 0 0 0 #57BCFF;
     font-size: 40px;
 }
-#about h2 {
-    text-align: center;
-    font-size: 60px;
-}
-
-#about p {
-    text-align: center;
-    font-size: 30px;
-}
 
 footer {
     background-color: #57BCFF;
