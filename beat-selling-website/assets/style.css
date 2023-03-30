@@ -27,7 +27,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 nav li {
