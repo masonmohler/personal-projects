@@ -78,6 +78,7 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .carousel-item {
@@ -106,6 +107,10 @@ h2 {
 .carousel-item h4 {
     font-size: 18px;
     margin: 0;
+}
+
+.carousel-item h4:last-child {
+    font-size: 18px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -138,11 +143,13 @@ audio::-webkit-media-controls-panel {
     transition: 0.4s ease-in-out;
     box-shadow: inset 0 0 0 0 #fff;
     font-size: 24px;
+    margin: 5px;
 }
 
 .carousel-item a:hover {
     color: #054F80;
     box-shadow: inset 600px 0 0 0 #fff;
+    text-shadow: none;
 }
 
 #services h2 {
