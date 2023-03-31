@@ -25,13 +25,14 @@ header {
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style-type: none;
     margin-right: 60px;
 }
 
 nav li {
     background-color: #57BCFF;
+    margin-left: 20px;
 }
 
 nav a {
