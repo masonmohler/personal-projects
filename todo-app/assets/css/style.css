@@ -1,0 +1,19 @@
+:root {
+    --darkest: #025959;
+    --darker: #43736E;
+    --dark: #6C8C86;
+    --light: #AABFB3;
+    --lightest: #F2EFE4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
